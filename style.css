@@ -165,7 +165,7 @@
     color: #120a0a;
     font-size: 47px;
     letter-spacing: 0;
-    line-height: 47px;
+    line-height: 53px;
     white-space: nowrap;
   }
   
@@ -252,6 +252,7 @@
     letter-spacing: 0;
     line-height: 13px;
     white-space: nowrap;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .div-benefits {
@@ -345,7 +346,7 @@
     width: 1425px;
     align-items: center;
     justify-content: center;
-    padding: 24px 112.5px;
+    padding: 24px 0px;
     position: absolute;
     top: 0;
     left: 0;
@@ -384,7 +385,7 @@
   .tabschocolate-com-by .div-4 {
     display: flex;
     flex-direction: column;
-    width: 66px;
+    width: 71px;
     align-items: flex-start;
     gap: 12px;
     padding: 0px 0px 74px;
@@ -395,12 +396,13 @@
     position: relative;
     align-self: stretch;
     width: 100%;
-    height: 66px;
+    height: 71px;
     border-radius: 12px;
     border: 2px solid;
     border-color: #000000;
     background-image: url(./img/product1-jpg.png);
     background-size: cover;
+    overflow: hidden;
     background-position: 50% 50%;
   }
   
@@ -408,65 +410,70 @@
     position: relative;
     align-self: stretch;
     width: 100%;
-    height: 66px;
+    height: 71px;
     border-radius: 12px;
     border: 1px solid;
     border-color: #faf1bd;
     background-image: url(./img/product2-jpg.png);
     background-size: cover;
     background-position: 50% 50%;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .jpg-2 {
     position: relative;
     align-self: stretch;
     width: 100%;
-    height: 66px;
+    height: 71px;
     border-radius: 12px;
     border: 1px solid;
     border-color: #faf1bd;
     background-image: url(./img/product3-jpg.png);
     background-size: cover;
     background-position: 50% 50%;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .jpg-3 {
     position: relative;
     align-self: stretch;
     width: 100%;
-    height: 66px;
+    height: 71px;
     border-radius: 12px;
     border: 1px solid;
     border-color: #faf1bd;
     background-image: url(./img/product4-jpg.png);
     background-size: cover;
     background-position: 50% 50%;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .jpg-4 {
     position: relative;
     align-self: stretch;
     width: 100%;
-    height: 66px;
+    height: 71px;
     border-radius: 12px;
     border: 1px solid;
     border-color: #faf1bd;
     background-image: url(./img/product5-jpg.png);
     background-size: cover;
     background-position: 50% 50%;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .group-png {
     position: relative;
     align-self: stretch;
     width: 100%;
-    height: 66px;
+    height: 71px;
     border-radius: 12px;
     border: 1px solid;
     border-color: #faf1bd;
     background-image: url(./img/group-1-7-png.png);
     background-size: cover;
     background-position: 50% 50%;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .div-swiper-wrapper {
@@ -735,6 +742,7 @@
     letter-spacing: 0;
     line-height: 22px;
     white-space: nowrap;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .overlap-group-wrapper {
@@ -769,6 +777,7 @@
     letter-spacing: 0;
     line-height: 20px;
     white-space: nowrap;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .div-8 {
@@ -843,6 +852,7 @@
     letter-spacing: 1px;
     line-height: 13px;
     white-space: nowrap;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .div-productvariant-4 {
@@ -908,7 +918,8 @@
     align-items: flex-start;
     padding: 4px 10.55px 2px 10px;
     position: absolute;
-    top: -6px;
+    top: -2px;
+    overflow: hidden;
     left: 2px;
     background-color: #000000;
     border-radius: 24px;
@@ -925,6 +936,7 @@
     letter-spacing: 1px;
     line-height: 13px;
     white-space: nowrap;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .div-productvariant-5 {
@@ -982,7 +994,8 @@
     align-items: flex-start;
     padding: 4px 10.66px 2px 10px;
     position: absolute;
-    top: -6px;
+    top: -2px;
+    overflow: hidden;
     left: 13px;
     background-color: #000000;
     border-radius: 24px;
@@ -1095,6 +1108,7 @@
     letter-spacing: 0;
     line-height: 18px;
     white-space: nowrap;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .img {
@@ -1240,7 +1254,7 @@
     position: relative;
     flex: 1;
     flex-grow: 1;
-    height: 587.5px;
+    height: 603.5px;
     background-image: url(./img/index-profiles-png.png);
     background-size: cover;
     background-position: 50% 50%;
@@ -1290,6 +1304,26 @@
     letter-spacing: 1px;
     line-height: 18px;
     white-space: nowrap;
+    overflow: hidden;
+  }
+  .text-wrapper-93{
+    position: relative;
+    width: fit-content;
+    z-index: 1;
+    font-family: "Raleway-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 18px;
+    white-space: nowrap;
+    background-color: rgb(204, 204, 6);
+    width: 141px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .tabschocolate-com-by .picture-product-hero {
@@ -1301,6 +1335,7 @@
     background-image: url(./img/picture-product-hero-jpg.png);
     background-size: cover;
     background-position: 50% 50%;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .div-sexy {
@@ -1325,6 +1360,7 @@
     background-image: url(./img/sexy-png.png);
     background-size: cover;
     background-position: 50% 50%;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .div-sexyinner {
@@ -1424,7 +1460,7 @@
     align-self: stretch;
     max-width: 200px;
     width: 100%;
-    height: 200px;
+    height: 208px;
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -1498,7 +1534,7 @@
   
   .tabschocolate-com-by .div-18 {
     min-height: 196.78px;
-    padding: 44.78px 0px 24px;
+    padding: 8.78px 0px 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1619,7 +1655,7 @@
     align-self: stretch;
     max-width: 200px;
     width: 100%;
-    height: 200px;
+    height: 208px;
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -1745,7 +1781,7 @@
     align-self: stretch;
     max-width: 200px;
     width: 100%;
-    height: 200px;
+    height: 208px;
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -1824,7 +1860,7 @@
     align-self: stretch;
     max-width: 200px;
     width: 100%;
-    height: 200px;
+    height: 208px;
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -1899,7 +1935,7 @@
     position: relative;
     max-width: 1200px;
     width: 1200px;
-    height: 738.47px;
+    height: 811.47px;
   }
   
   .tabschocolate-com-by .div-videostitle {
@@ -1969,7 +2005,8 @@
     width: 384px;
     align-items: center;
     gap: 95.1px;
-    padding: 14px 19.8px 14px 139.1px;
+    padding: 14px 19.8px 14px 14.1px;
+    justify-content: center;
     position: absolute;
     top: 686px;
     left: 408px;
@@ -2008,7 +2045,7 @@
   }
   
   .tabschocolate-com-by .div-videobody {
-    height: 71px;
+    height: 113px;
     top: 500px;
     background-color: #f4f4f4;
     position: absolute;
@@ -2051,7 +2088,7 @@
   .tabschocolate-com-by .image-png {
     position: relative;
     width: 282px;
-    height: 500.09px;
+    height: 524.09px;
     background-image: url(./img/image-7-png.png);
     background-size: cover;
     background-position: 50% 50%;
@@ -2093,7 +2130,7 @@
   .tabschocolate-com-by .image-png-2 {
     position: relative;
     width: 282px;
-    height: 500.09px;
+    height: 524.09px;
     background-image: url(./img/image-8-png.png);
     background-size: cover;
     background-position: 50% 50%;
@@ -2127,7 +2164,7 @@
   .tabschocolate-com-by .image-png-3 {
     position: relative;
     width: 282px;
-    height: 500.09px;
+    height: 524.09px;
     background-image: url(./img/image-9-png.png);
     background-size: cover;
     background-position: 50% 50%;
@@ -2177,7 +2214,7 @@
   .tabschocolate-com-by .image-png-4 {
     position: relative;
     width: 282px;
-    height: 500.09px;
+    height: 524.09px;
     background-image: url(./img/image-10-png.png);
     background-size: cover;
     background-position: 50% 50%;
@@ -2192,6 +2229,7 @@
     gap: 35.19px;
     position: absolute;
     top: 4837px;
+    height: 1071px;
     left: 312px;
   }
   
@@ -2425,7 +2463,7 @@
   
   .tabschocolate-com-by .div-infoinner-wrapper {
     padding: 48px 112.5px;
-    top: 5658px;
+    top: 5570px;
     background-color: #000000;
     display: flex;
     flex-direction: column;
@@ -2650,7 +2688,7 @@
     justify-content: center;
     padding: 48px 112.5px 23px;
     position: absolute;
-    top: 7919px;
+    top: 6109px;
     left: 0;
     background-color: #000000;
   }
@@ -2676,6 +2714,7 @@
     position: relative;
     width: 550px;
     height: 217.97px;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .text-wrapper-37 {
@@ -2900,6 +2939,7 @@
     letter-spacing: 0;
     line-height: 42px;
     white-space: nowrap;
+    overflow: hidden;
   }
   
   .tabschocolate-com-by .div-footercolumnbody {
@@ -3108,7 +3148,7 @@
   .tabschocolate-com-by .icon-payments-svg {
     position: relative;
     max-width: 304px;
-    width: 304px;
+    width: 40px;
     flex: 0 0 auto;
     object-fit: cover;
   }
@@ -3177,7 +3217,7 @@
   
   .tabschocolate-com-by .link-6 {
     display: inline-flex;
-    height: 37px;
+    height: 23px;
     align-items: center;
     gap: 10px;
     padding: 6.5px 40px 6.5px 10px;
